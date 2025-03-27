@@ -1,7 +1,8 @@
 # Collaborative Filtering Recommendation System
 
 ## 📌 Overview
-This project implements a **Collaborative Filtering Recommendation System** using **Cosine Similarity**. The system suggests movies to users based on similar users' preferences (User-Based Filtering) by computing the centered mean for ratings and then finding similar users based on cosine similarity.
+This project implements a **Collaborative Filtering Recommendation System** using **Centered Cosine Similarity**. The system suggests movies to users based on similar users' preferences (User-Based Filtering) by computing the centered mean for ratings and then finding similar users based on cosine similarity.
+Centered cosine similarity, also known as the Pearson correlation coefficient, measures vector similarity by first centering the vectors (subtracting their means) and then calculating the cosine similarity
 
 ## 📂 Dataset
 - The dataset used is `ratings_small.csv`.
